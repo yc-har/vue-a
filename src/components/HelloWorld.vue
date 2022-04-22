@@ -81,6 +81,13 @@
       </li>
     </ul>
     <h1>vuex</h1>
+    <h2>{{$store.state.num}}</h2>
+    <input type="text" :value="$store.state.num">
+    <input type="button" value="点击" @click="addBtn">
+
+    <hr>
+    <h1>getters</h1>
+    <h2>{{$store.getters.getNum}}</h2>
   </div>
 </template>
 

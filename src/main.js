@@ -3,15 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import vuex from 'vuex'
-Vue.use(vuex)
-
-var store = new vuex.Store({
-  state:{
-    num:10
-  }
-})
-
+import store from './store'
 
 Vue.config.productionTip = false
 
