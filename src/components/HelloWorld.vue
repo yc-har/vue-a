@@ -98,6 +98,11 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  methods:{
+    addBtn(){
+      this.$store.commit('getAdd')
+    }
   }
 }
 </script>

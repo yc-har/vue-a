@@ -11,6 +11,10 @@ var store = new vuex.Store({
           return state.num + '元'
 
       }
+  },
+  mutations:{
+      getAdd(state){
+          state.num++      }
   }
 })
 
